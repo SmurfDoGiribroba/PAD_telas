@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'dois',
+    loadChildren: () => import('./dois/dois.module').then( m => m.DoisPageModule)
+  },
 ];
 
 @NgModule({
