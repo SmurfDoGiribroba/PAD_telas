@@ -1,0 +1,7 @@
+{
+  "name": "atvdd PAD",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
